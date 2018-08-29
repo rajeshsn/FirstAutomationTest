@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124126" started-at="2018-08-29T14:25:41Z" finished-at="2018-08-29T14:27:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124126" started-at="2018-08-29T14:25:41Z" finished-at="2018-08-29T14:27:45Z">
+      <class name="com.FreeCRM.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="18230" started-at="2018-08-29T19:55:41Z" finished-at="2018-08-29T19:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateUserNameLabelTest()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="validateUserNameLabelTest" duration-ms="6913" started-at="2018-08-29T19:55:59Z" finished-at="2018-08-29T19:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="3414" started-at="2018-08-29T19:56:06Z" finished-at="2018-08-29T19:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="22270" started-at="2018-08-29T19:56:10Z" finished-at="2018-08-29T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifyHomePageTitleTest()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="VerifyHomePageTitleTest" duration-ms="16" started-at="2018-08-29T19:56:32Z" finished-at="2018-08-29T19:56:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title not matched expected [CRMPRO] but found [#1 Free CRM software in the cloud for sales and service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title not matched expected [CRMPRO] but found [#1 Free CRM software in the cloud for sales and service]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.FreeCRM.testcases.HomePageTest.VerifyHomePageTitleTest(HomePageTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="4523" started-at="2018-08-29T19:56:32Z" finished-at="2018-08-29T19:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="19659" started-at="2018-08-29T19:56:37Z" finished-at="2018-08-29T19:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyContactLinkTest()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="VerifyContactLinkTest" duration-ms="12510" started-at="2018-08-29T19:56:56Z" finished-at="2018-08-29T19:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="2774" started-at="2018-08-29T19:57:09Z" finished-at="2018-08-29T19:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="19691" started-at="2018-08-29T19:57:12Z" finished-at="2018-08-29T19:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyDealsLinkTest()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="VerifyDealsLinkTest" duration-ms="11469" started-at="2018-08-29T19:57:31Z" finished-at="2018-08-29T19:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDealsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FreeCRM.testcases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="2630" started-at="2018-08-29T19:57:43Z" finished-at="2018-08-29T19:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FreeCRM.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
