@@ -42,6 +42,13 @@ public void validateContactsLabelTest(){
 	
 	Assert.assertTrue(true, "Label Matched");
 }
+
+@Test(priority=1,dataProvider="")
+
+public void createNewContactTest(String Title,String FirstName,String LastName, String Mobile,String Email){
+	
+	
+}
 	
 	@AfterMethod
 	
