@@ -19,7 +19,7 @@ public class ExcelUtility extends TestBase {
 	static XSSFWorkbook workbook;
 	static XSSFSheet sheet;
 	
-	public Object[][] getTestData(String sheetName){
+	public static Object[][] getTestData(String sheetName){
 		
 	FileInputStream file =null;
 	

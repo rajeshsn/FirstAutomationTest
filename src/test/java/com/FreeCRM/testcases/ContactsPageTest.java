@@ -3,12 +3,14 @@ package com.FreeCRM.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.FreeCRM.base.TestBase;
 import com.FreeCRM.pages.ContactsPage;
 import com.FreeCRM.pages.HomePage;
 import com.FreeCRM.pages.LoginPage;
+import com.FreeCRM.util.ExcelUtility;
 import com.FreeCRM.util.TestUtil;
 
 public class ContactsPageTest extends TestBase {
@@ -16,6 +18,7 @@ public class ContactsPageTest extends TestBase {
 	LoginPage loginpage;
 	TestUtil testUtil;
 	ContactsPage contactspage;
+	ExcelUtility excelUtil;
 	
 	public ContactsPageTest(){
 		
@@ -32,6 +35,12 @@ public class ContactsPageTest extends TestBase {
 		
 		homepage=loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		
+		contactspage=new ContactsPage();
+		
+		TestUtil.switchToFrame();
+		
+		contactspage=homepage.clickOnContactsLink();
+		
 	}	
 	
 @Test(priority=1,dataProvider="")
@@ -43,10 +52,21 @@ public void validateContactsLabelTest(){
 	Assert.assertTrue(true, "Label Matched");
 }
 
-@Test(priority=1,dataProvider="")
-
-public void createNewContactTest(String Title,String FirstName,String LastName, String Mobile,String Email){
+@DataProvider
+public Object[][] getTestData(){
 	
+Object[][] data =ExcelUtility.getTestData("contact");
+
+return data;
+}
+
+@Test(priority=2,dataProvider="getTestData")
+
+public void createNewContactTest(String tit,String ftName,String ltname,String mobi,String mail){
+	
+	homepage.clickOnNewContactLink();
+	
+	contactspage.createNewContact(tit, ftName, ltname, mobi, mail);
 	
 }
 	

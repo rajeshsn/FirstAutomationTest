@@ -1,8 +1,5 @@
 package com.FreeCRM.testcases;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -45,7 +42,7 @@ public class HomePageTest extends TestBase {
 	
 	public void validateUserNameLabelTest(){
 		
-         testUtil.switchToFrame();
+         TestUtil.switchToFrame();
 		Assert.assertTrue(homepage.validateUser());
 		
 	}
@@ -62,7 +59,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=3)
 	
 	public void VerifyContactLinkTest(){
-		testUtil.switchToFrame();
+		TestUtil.switchToFrame();
 		
         homepage.clickOnContactsLink();
          
@@ -73,7 +70,7 @@ public class HomePageTest extends TestBase {
 @Test(priority=4)
 	
 	public void VerifyDealsLinkTest(){
-	testUtil.switchToFrame();
+	TestUtil.switchToFrame();
 		
         homepage.clickOnDealsLink();
          

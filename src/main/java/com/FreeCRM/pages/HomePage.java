@@ -1,16 +1,10 @@
 package com.FreeCRM.pages;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-
 import com.FreeCRM.base.TestBase;
-import com.FreeCRM.util.TestUtil;
 
 public class HomePage extends TestBase {
 	
@@ -28,7 +22,7 @@ public class HomePage extends TestBase {
 	
 	WebElement DealsLink;
 	
-    @FindBy(xpath="//a[@href='https://www.freecrm.com/system/index.cfm?action=contact&amp']")
+    @FindBy(xpath="//a[contains(text(),'New Contact')]")
 	
 	WebElement newContactLink;
     

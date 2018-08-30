@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1607626439\testng-customsuite.xml</span>
+                    <span>C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1778426904\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyHomePageTitleTest">VerifyHomePageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,17 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyContactLinkTest">VerifyContactLinkTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.ContactsPageTest" hash-for-method="createNewContactTest(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com)">createNewContactTest(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyDealsLinkTest">VerifyDealsLinkTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.ContactsPageTest" hash-for-method="createNewContactTest(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com)">createNewContactTest(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="validateUserNameLabelTest">validateUserNameLabelTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.ContactsPageTest" hash-for-method="createNewContactTest(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com)">createNewContactTest(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -140,108 +126,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.FreeCRM.testcases.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyHomePageTitleTest">
-                  </a> <!-- VerifyHomePageTitleTest -->
-                  <span class="method-name">VerifyHomePageTitleTest</span>
-                  <div class="stack-trace"><b>"java.lang.AssertionError: title not matched expected [CRMPRO] but found [#1 Free CRM software in the cloud for sales and service]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at com.FreeCRM.testcases.HomePageTest.VerifyHomePageTitleTest(HomePageTest.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-<br/> java.lang.AssertionError: title not matched expected [CRMPRO] but found [#1 Free CRM software in the cloud for sales and service]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at com.FreeCRM.testcases.HomePageTest.VerifyHomePageTitleTest(HomePageTest.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:176)<br>com.FreeCRM.testcases.HomePageTest.VerifyHomePageTitleTest(HomePageTest.java:58)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.FreeCRM.testcases.HomePageTest</span>
+              <span class="class-name">com.FreeCRM.testcases.ContactsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyContactLinkTest">
-                  </a> <!-- VerifyContactLinkTest -->
-                  <span class="method-name">VerifyContactLinkTest</span>
+                  <a name="createNewContactTest(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com)">
+                  </a> <!-- createNewContactTest(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyDealsLinkTest">
-                  </a> <!-- VerifyDealsLinkTest -->
-                  <span class="method-name">VerifyDealsLinkTest</span>
+                  <a name="createNewContactTest(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com)">
+                  </a> <!-- createNewContactTest(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateUserNameLabelTest">
-                  </a> <!-- validateUserNameLabelTest -->
-                  <span class="method-name">validateUserNameLabelTest</span>
+                  <a name="createNewContactTest(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com)">
+                  </a> <!-- createNewContactTest(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1607626439\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1778426904\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -258,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.FreeCRM.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.FreeCRM.testcases.ContactsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -298,28 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyContactLinkTest')
-data.setCell(0, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(0, 3, 12510);
+data.setCell(0, 1, 'createNewContactTest')
+data.setCell(0, 2, 'com.FreeCRM.testcases.ContactsPageTest')
+data.setCell(0, 3, 6316);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyDealsLinkTest')
-data.setCell(1, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(1, 3, 11469);
+data.setCell(1, 1, 'createNewContactTest')
+data.setCell(1, 2, 'com.FreeCRM.testcases.ContactsPageTest')
+data.setCell(1, 3, 6299);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateUserNameLabelTest')
-data.setCell(2, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(2, 3, 6913);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyHomePageTitleTest')
-data.setCell(3, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(3, 3, 16);
+data.setCell(2, 1, 'createNewContactTest')
+data.setCell(2, 2, 'com.FreeCRM.testcases.ContactsPageTest')
+data.setCell(2, 3, 6284);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -345,56 +253,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.FreeCRM.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.FreeCRM.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateUserNameLabelTest</span>
-                <span class="method-start">18230 ms</span>
+                <span class="method-name">createNewContactTest(Mr., Rajesh, Negi, 7.263871558E9, rajesh_negi75@yahoo.com)</span>
+                <span class="method-start">46651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25145 ms</span>
+                <span class="method-start">52937 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">28560 ms</span>
+                <span class="method-start">56290 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">VerifyHomePageTitleTest</span>
-                <span class="method-start">50830 ms</span>
+                <span class="method-name">createNewContactTest(Dr., Tom, harry, 9.808908909E9, tomharry@gmail.com)</span>
+                <span class="method-start">106346 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50851 ms</span>
+                <span class="method-start">112648 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">55376 ms</span>
+                <span class="method-start">115386 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyContactLinkTest</span>
-                <span class="method-start">75035 ms</span>
+                <span class="method-name">createNewContactTest(Mrs., Sunny, Leone, 9.898989898E9, sunnyleone@hotmail.com)</span>
+                <span class="method-start">169444 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">87546 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">90321 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">VerifyDealsLinkTest</span>
-                <span class="method-start">110012 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">121483 ms</span>
+                <span class="method-start">175761 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

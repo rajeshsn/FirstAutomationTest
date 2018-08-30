@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.FreeCRM.testcases.HomePageTest">
+      <class name="com.FreeCRM.testcases.ContactsPageTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="VerifyHomePageTitleTest"/>
+          <include name="createNewContactTest" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.FreeCRM.testcases.HomePageTest -->
+      </class> <!-- com.FreeCRM.testcases.ContactsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
