@@ -1,18 +1,9 @@
 package com.FreeCRM.pages;
 
-import java.awt.event.ActionEvent;
-import java.beans.PropertyChangeListener;
-
-import javax.swing.Action;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.FreeCRM.base.TestBase;
 
 public class LoginPage extends TestBase {
