@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse-1607052424\testng-customsuite.xml</span>
+                    <span>C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1323537313\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyDealsLinkTest">VerifyDealsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyContactLinkTest">VerifyContactLinkTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.FreeCRM.testcases.HomePageTest" hash-for-method="VerifyDealsLinkTest">VerifyDealsLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -131,6 +140,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.FreeCRM.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDealsLinkTest">
+                  </a> <!-- VerifyDealsLinkTest -->
+                  <span class="method-name">VerifyDealsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -142,13 +166,6 @@
                   <a name="VerifyContactLinkTest">
                   </a> <!-- VerifyContactLinkTest -->
                   <span class="method-name">VerifyContactLinkTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyDealsLinkTest">
-                  </a> <!-- VerifyDealsLinkTest -->
-                  <span class="method-name">VerifyDealsLinkTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -170,7 +187,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse-1607052424\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Rajesh\AppData\Local\Temp\testng-eclipse--1323537313\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -221,26 +238,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyContactLinkTest')
+data.setCell(0, 1, 'validateUserNameLabelTest')
 data.setCell(0, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(0, 3, 11334);
+data.setCell(0, 3, 6505);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateUserNameLabelTest')
+data.setCell(1, 1, 'VerifyContactLinkTest')
 data.setCell(1, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(1, 3, 11318);
+data.setCell(1, 3, 6005);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyDealsLinkTest')
+data.setCell(2, 1, 'VerifyHomePageTitleTest')
 data.setCell(2, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(2, 3, 7321);
+data.setCell(2, 3, 14);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyHomePageTitleTest')
+data.setCell(3, 1, 'VerifyDealsLinkTest')
 data.setCell(3, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(3, 3, 16);
+data.setCell(3, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -273,48 +290,46 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateUserNameLabelTest</span>
-                <span class="method-start">34575 ms</span>
+                <span class="method-start">26417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45895 ms</span>
+                <span class="method-start">32923 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">49266 ms</span>
+                <span class="method-start">35270 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyHomePageTitleTest</span>
-                <span class="method-start">67646 ms</span>
+                <span class="method-start">52564 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">67662 ms</span>
+                <span class="method-start">52580 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">70598 ms</span>
+                <span class="method-start">55596 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyContactLinkTest</span>
-                <span class="method-start">89950 ms</span>
+                <span class="method-start">74607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">101285 ms</span>
+                <span class="method-start">80616 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup</span>
-                <span class="method-start">104347 ms</span>
+                <span class="method-start">83874 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyDealsLinkTest</span>
-                <span class="method-start">123690 ms</span>
+                <span class="method-start">96099 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">131012 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
