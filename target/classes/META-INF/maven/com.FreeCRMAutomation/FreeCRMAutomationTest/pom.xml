@@ -24,7 +24,7 @@
     <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.9.1</version>
+    <version>3.14.0</version>
 </dependency>
 <dependency>
   <groupId>org.testng</groupId>
@@ -57,15 +57,34 @@
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
 <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-remote-driver</artifactId>
-    <version>2.44.0</version>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-support</artifactId>
+  <version>3.0.1</version>
+  <type>jar</type>
+</dependency>
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-api</artifactId>
+  <version>3.0.1</version>
+</dependency>
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-htmlunit-driver</artifactId>
+  <version>2.52.0</version>
+</dependency>
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-remote-driver</artifactId>
+  <version>2.31.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-server</artifactId>
-    <version>2.44.0</version>
+    <version>3.14.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+
+
   </dependencies>
 </project>
