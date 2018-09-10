@@ -62,10 +62,11 @@
   <version>3.0.1</version>
   <type>jar</type>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
 <dependency>
-  <groupId>org.seleniumhq.selenium</groupId>
-  <artifactId>selenium-api</artifactId>
-  <version>3.0.1</version>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>2.21.0</version>
 </dependency>
 <dependency>
   <groupId>org.seleniumhq.selenium</groupId>
@@ -84,7 +85,5 @@
     <version>3.14.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
-
-
-  </dependencies>
+ </dependencies>
 </project>
